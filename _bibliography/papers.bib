@@ -2,83 +2,178 @@
 ---
 
 @string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{10.1145/3628797.3628843,
+author = {Tran, Tan and Pham, Canh and Ha, Dung},
+title = {Maximizing a $k$-Submodular Maximization Function under an Individual Knapsack Constraint},
+year = {2023},
+isbn = {9798400708916},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3628797.3628843},
+doi = {10.1145/3628797.3628843},
+abstract = {In this work, we consider a novel problem of maximizing monotone k-submodular functions under the individual knapsack constraint () over the ground set V, which has been found numerous applications in machine learning, including data summarization and information propagation. We propose an approximation algorithm that has approximation ratio and takes O(nklog (n)/ϵ) query complexity, where ϵ is an input parameter. Alongside theoretical analysis, we conduct extensive experiments on our proposed algorithm via some applications, such as Influence Maximization and Sensor Placement. The experimental results demonstrate that our algorithm gives competitive solution quality with state-of-the-art techniques but significantly reduces the required queries.},
+booktitle = {Proceedings of the 12th International Symposium on Information and Communication Technology},
+pages = {56–62},
+numpages = {7},
+keywords = {Streaming Algorithms, individual knapsack constraint., Approximation Algorithms, Combinatorial Optimization, k-submodular maximization},
+location = {<conf-loc>, <city>Ho Chi Minh</city>, <country>Vietnam</country>, </conf-loc>},
+series = {SOICT '23}
 }
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@INPROCEEDINGS{10299445,
+  author={Ha, Dung T.K. and Pham, Canh V. and Tran, Tan D. and Hoang, Huan X.},
+  booktitle={2023 15th International Conference on Knowledge and Systems Engineering (KSE)}, 
+  title={Robust Approximation Algorithms for Non-Monotone k-Submodular Maximization Under a Knapsack Constraint}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/KSE59128.2023.10299445}}
+@article{HA2024106452,
+title = {Improved approximation algorithms for k-submodular maximization under a knapsack constraint},
+journal = {Computers & Operations Research},
+volume = {161},
+pages = {106452},
+year = {2024},
+issn = {0305-0548},
+doi = {https://doi.org/10.1016/j.cor.2023.106452},
+url = {https://www.sciencedirect.com/science/article/pii/S0305054823003167},
+author = {Dung T.K. Ha and Canh V. Pham and Tan D. Tran},
+keywords = {Combinatorial optimization, Approximation algorithm, -submodular, Knapsack constraint},
+abstract = {We investigate the problem of k-submodular maximization under a knapsack constraint over the ground set of size n. This problem finds many applications in various fields, such as multi-topic propagation, multi-sensor placement, cooperative games, etc. However, existing algorithms for the studied problem face challenges in practice as the size of instances increases in practical applications. This paper introduces three deterministic and approximation algorithms for the problem that significantly improve both the approximation ratio and query complexity of existing practical algorithms. Our first algorithm, FA, returns an approximation ratio of 1/10 within O(nk) query complexity. The second one, IFA, improves the approximation ratio to 1/4−ϵ in O(nk/ϵ) queries. The last one IFA+ upgrades the approximation ratio to 1/3−ϵ in O(nklog(1/ϵ)/ϵ) query complexity, where ϵ is an accuracy parameter. Our algorithms are the first ones that provide constant approximation ratios within only O(nk) query complexity, and the novel idea to achieve results lies in two components. Firstly, we divide the ground set into two appropriate subsets to find the near-optimal solution over these ones with O(nk) queries. Secondly, we devise algorithmic frameworks that combine the solution of the first algorithm and the greedy threshold method to improve solution quality. In addition to the theoretical analysis, we have evaluated our proposed ones with several experiments in some instances: Influence Maximization, Information Coverage Maximization, and Sensor Placement for the problem. The results confirm that our algorithms ensure theoretical quality as the cutting-edge techniques, including streaming and non-streaming algorithms, and also significantly reduce the number of queries.}
+,
+selected={true}
 }
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
+@article{PHAM2023182,
+title = {Minimizing cost for influencing target groups in social network: A model and algorithmic approach},
+journal = {Computer Communications},
+volume = {212},
+pages = {182-197},
+year = {2023},
+issn = {0140-3664},
+doi = {https://doi.org/10.1016/j.comcom.2023.09.022},
+url = {https://www.sciencedirect.com/science/article/pii/S0140366423003328},
+author = {Phuong N.H. Pham and Canh V. Pham and Hieu V. Duong and Václav Snášel and Nguyen Trung Thanh},
+keywords = {Online social networks, Social influence, Group influence, Approximation algorithms},
+abstract = {Stimulated by practical applications arising from economics, viral marketing, and elections, this paper studies the problem of Groups Influence with Minimum cost (GIM), which aims to find a seed set with the smallest cost that can influence all target groups in a social network, where each user is assigned a cost and a score and a group of users is influenced if the total score of influenced users in the group is at least a certain threshold. As the group influence function, defined as the number of influenced groups or users, is neither submodular nor supermodular, theoretical bounds on the quality of solutions returned by the well-known greedy approach may not be guaranteed. In this work, two efficient algorithms with theoretical guarantees for tackling the GIM problem, named Groups Influence Approximation (GIA) and Exact Groups Influence (EGI), are proposed. GIA is a bi-criteria polynomial-time approximation algorithm and EGI is an (almost) exact algorithm; both can return good approximate solutions with high probability. The novelty of our approach lies in two aspects. Firstly, a novel group reachable reverse sample concept is proposed to estimate the group influence function within an error bound. Secondly, a framework algorithmic is designed to find serial candidate solutions with checking theoretical guarantees at the same time. Besides theoretical results, extensive experiments conducted on real social networks show our algorithms’ performance. In particular, both EGI and GIA provide the solution quality several times better, while GIA is up to 800 times faster than the state-of-the-art algorithms.}
+,
+selected={true}
+}
+@article{pham2023linear,
+  title={Linear Query Approximation Algorithms for Non-monotone Submodular Maximization under Knapsack Constraint},
+  author={Pham, Canh V and Tran, Tan D and Ha, Dung TK and Thai, My T},
+  journal={arXiv e-prints},
+  pages={arXiv--2305},
+  year={2023}
+  ,
   selected={true}
 }
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{PHAM2023106393,
+title = {A note for approximating the submodular cover problem over integer lattice with low adaptive and query complexities},
+journal = {Information Processing Letters},
+volume = {182},
+pages = {106393},
+year = {2023},
+issn = {0020-0190},
+doi = {https://doi.org/10.1016/j.ipl.2023.106393},
+url = {https://www.sciencedirect.com/science/article/pii/S0020019023000364},
+author = {Canh V. Pham and Dung T.K. Ha},
+keywords = {submodular Cover, integer lattice, adaptive complexity, approximation algorithms},
+abstract = {This paper studies the Diminishing Return Submodular Cover (DRSC) problem as follows: given a diminishing return submodular function f:Z+E↦R+ over the ground set E of size n, a positive integer B as the maximum value of a coordinate of a vector in Z+E and a threshold α>0, the problem asks to find the vector with the smallest size x so that f(x)≥α. This problem has been attracted by much research recently due to its importance in machine learning and combinatorial optimization. However, because of high query and adaptive complexities, the existing algorithms might still not be efficient enough when working with large input data. This paper proposes a randomized and bicriteria approximation algorithm that has O(log⁡n) adaptive complexity and O((n+log⁡nlog⁡B)log⁡(nB)) query complexity. Our algorithm significantly reduces both adaptive and query complexities compared to some state-of-the-art algorithms by factors of Ω(log⁡(m)log2⁡(mnlog⁡B)(1+log⁡(log⁡B)/log⁡(n))), Ω(min⁡{n/log⁡(n),log⁡(B)}) respectively, where m=f(B⋅1).}
+}
+@inproceedings{uyen2022heuristic,
+  title={A Heuristic Algorithm for Student-Project Allocation Problem},
+  author={Uyen, Nguyen Thi and Nguyen, Giang L and Pham, Canh V and Sang, Tran Xuan and Viet, Hoang Huu},
+  booktitle={International Conference on Computational Data and Social Networks},
+  pages={280--291},
+  year={2022},
+  organization={Springer}
+}
+@inproceedings{10.1145/3568562.3568668,
+author = {N. H. Pham, Phuong and T. N. Co, Quy and N. Su, Anh and T. Pham, Phuong and V. Pham, Canh and Snasel, Vaclav},
+title = {K-Submodular Cover Problem: Application and Algorithms},
+year = {2022},
+isbn = {9781450397254},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3568562.3568668},
+doi = {10.1145/3568562.3568668},
+abstract = {In this paper, we investigate a novel combinatorial optimization, k-Submodular Cover, as follows: Given a finite set V, a monotone k-submodular function , and a threshold . The problem aim at finding a solution with the size is minimal so that the function . This problem is a general version of the well-known Submodular Cover problem and thus it is NP-hard. Two efficient algorithms for the k-Submodular Cover problem are proposed. The first one is Greedy algorithm and the second one is a Streaming algorithm with theoretical guarantees. Extensive experiments on real-world datasets show that the proposed algorithms are more effective than the state-of-the-art methods in the application of Influence Threshold with k topics. In particular, our streaming algorithm not only provides a guaranteed theoretical solution, but also proves to be superior to the rest of the algorithms in terms of running time.},
+booktitle = {Proceedings of the 11th International Symposium on Information and Communication Technology},
+pages = {442–449},
+numpages = {8},
+keywords = {Approximation Algorithms, k-submodular, Streaming algorithm},
+location = {Hanoi, Vietnam},
+series = {SoICT '22}
+}
+@INPROCEEDINGS{10032383,
+  author={Pham, Canh V. and Ha, Dung K.T. and Hoang, Huan X. and Tran, Tan D.},
+  booktitle={2022 IEEE 9th International Conference on Data Science and Advanced Analytics (DSAA)}, 
+  title={Fast Streaming Algorithms for k-Submodular Maximization under a Knapsack Constraint}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-10},
+  doi={10.1109/DSAA54385.2022.10032383}}
+@InProceedings{10.1007/978-3-030-97610-1_19,
+author="Nguyen, Bich-Ngan T.
+and Pham, Phuong N. H.
+and Tran, Loi H.
+and Pham, Canh V.
+and Sn{\'a}{\v{s}}el, V{\'a}clav",
+editor="Dang, Ngoc Hoang Thanh
+and Zhang, Yu-Dong
+and Tavares, Jo{\~a}o Manuel R. S.
+and Chen, Bo-Hao",
+title="Fairness Budget Distribution for Influence Maximization in Online Social Networks",
+booktitle="Artificial Intelligence in Data and Big Data Processing",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="225--237",
+abstract="Influence maximization ({\$}{\$}{\{}{\backslash}mathsf {\{}IM{\}}{\}}{\$}{\$}IM) is an important problem in social influence, viral marketing, and economics. This paper studies a fairness constraint in the Influence Maximization problem, a general {\$}{\$} {\{}{\backslash}mathsf {\{}IM{\}}{\}}{\$}{\$}IMversion that aims to find a k-size seed set distributed in target communities. Each has certain upper and lower bounds so that the influence spread is maximal. However, solving this problem faces two main challenges: it is an NP-hard problem, and the seed sets with strong influence may not satisfy the fairness constraint. To address this problem, we propose the Fairness Budget Influence Maximization algorithm. This algorithm combines an improved greedy strategy with generating sampling and a stop-and-stare technique. We conducted experiments on real social networks. The result shows that our proposed algorithm equalizes or outperforms the state-of-the-art algorithm in terms of the objective value, the running time, the memory usage, and especially the target communities coverage ratio of the seed set. It is almost greater than the compared algorithm and guarantees fairness constraint.",
+isbn="978-3-030-97610-1"
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+
+
+
+
+@article{doi:10.1142/S0217595922500130,
+author = {Ha, Dung T. K. and Pham, Canh V. and Hoang, Huan X.},
+title = {Submodular Maximization Subject to a Knapsack Constraint Under Noise Models},
+journal = {Asia-Pacific Journal of Operational Research},
+volume = {39},
+number = {06},
+pages = {2250013},
+year = {2022},
+doi = {10.1142/S0217595922500130},
+
+URL = { 
+    
+        https://doi.org/10.1142/S0217595922500130
+    
+    
+
+},
+eprint = { 
+    
+        https://doi.org/10.1142/S0217595922500130
+    
+    
+
+}
+,
+    abstract = { The field of Submodular Maximization subject to a Knapsack constraint has recently expanded to a variety of application domains, which is facing some challenges such as data explosions or additional conditions. There exist plenty of objective functions that cannot be evaluated exactly in many real cases unless they are estimated with errors. It leads to solving the problem under noise models. Somewhat surprisingly, Submodular Maximization subject to a Knapsack constraint under Noise models (SMKN) has never been discussed a lot before. Hence, in this paper, we consider the problem with two kinds of noise models which are addition and multiplication. Inspired by the traditional Greedy algorithm, we first propose a Greedy algorithm under Noises with provable theoretical bounds. In order to find the solution when input data are extremely large, we then devise an efficient streaming algorithm that scans only a single pass over the data and guarantees theoretical approximations. Finally, we conduct some experiments on Influence Maximization problem under knapsack constraint, an instance of SMKN to show the performances of the proposed algorithms. }
+}
+@article{pham2022maximizing,
+  title={Maximizing k-submodular functions under budget constraint: applications and streaming algorithms},
+  author={Pham, Canh V and Vu, Quang C and Ha, Dung KT and Nguyen, Tai T and Le, Nguyen D},
+  journal={Journal of Combinatorial Optimization},
+  volume={44},
+  number={1},
+  pages={723--751},
+  year={2022},
+  publisher={Springer}
 }
