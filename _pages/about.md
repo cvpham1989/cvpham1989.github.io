@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://orlab.com.vn/'>ORLab</a>, Phenikaa University
 
 profile:
   align: left
