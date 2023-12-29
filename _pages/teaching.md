@@ -12,3 +12,4 @@ nav_order: 6
     - Information Theory
     - Design and Analysis Algorithms
     - Social Network Analysis
+    - Graph Theory
