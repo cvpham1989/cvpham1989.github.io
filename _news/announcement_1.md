@@ -1,8 +1,10 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
-inline: true
+title: A long announcement with details
+date: 2015-11-07 16:11:00-0400
+inline: false
 related_posts: false
 ---
 
-    **TPC member:** KSE, CSoNet
+    **Reviever:**  
+    Pattern Recognition, IEEE Communication Letters, Computer Communication, IEEE Access, IEEE Transactions on Big Data, Computational Social Networks,  International Journal of General Systems, ACM Computing Surveys.
