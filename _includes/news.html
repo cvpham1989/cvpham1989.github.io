@@ -12,7 +12,7 @@
               {% for item in news limit: news_limit %}
                 <tr>             
                   <td>
-                    <p>{% item.content %}</p>
+                      {{ item.content }}
                   </td>
                 </tr>
               {%- endfor %}
