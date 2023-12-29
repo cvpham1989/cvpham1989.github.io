@@ -33,7 +33,7 @@
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
         <!-- Title -->
-        <span class="title fw-bolder">{{entry.title}}</span>
+        <span class="title" style="font-weight: bold;">{{entry.title}}</span>
         <!-- Author -->
         <span class="author">
         {% assign author_array_size = entry.author_array | size %}
@@ -114,11 +114,11 @@
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
         {% if entry.type == "article" -%}
-          {%- capture entrytype -%}<em class="text-info fw-bolder">{{entry.journal}}</em>{%- endcapture -%}
+          {%- capture entrytype -%}<em class="text-info" style="font-weight: bold;">{{entry.journal}}</em>{%- endcapture -%}
         {%- elsif proceedings contains entry.type -%}
-          {%- capture entrytype -%}<em class="text-info fw-bolder">In {{entry.booktitle}}</em> {%- endcapture -%}
+          {%- capture entrytype -%}<em class="text-info" style="font-weight: bold;">In {{entry.booktitle}}</em> {%- endcapture -%}
         {%- elsif thesis contains entry.type -%}
-          {%- capture entrytype -%}<em class="text-info fw-bolder">{{entry.school}}</em> {%- endcapture -%}
+          {%- capture entrytype -%}<em class="text-info" style="font-weight: bold;">{{entry.school}}</em> {%- endcapture -%}
         {%- else -%}
           {%- capture entrytype -%}{%- endcapture -%}
         {%- endif -%}
@@ -130,10 +130,10 @@
         {%- endif -%}
         {% assign entrytype_text = entrytype | strip_html | strip %}
         {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
-        <span>; </span> <span class="periodical text-info fw-bolder">
+        <span>; </span> <span class="periodical text-info">
           {{ periodical | strip }}
         </span>
-        <span class="periodical text-info fw-bolder">
+        <span class="periodical text-info">
           {{ entry.note | strip }}
         </span>
 
