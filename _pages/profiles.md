@@ -15,12 +15,10 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Dung K.T Ha</p>
-      <p>VNU University of Engineering and Technology</p>
   - align: left
     image: prof_pic_tantd.jpg
     content: about_tantd.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Tan D. Tran</p>
-      <p>VNU University of Engineering and Technology</p>
 ---
