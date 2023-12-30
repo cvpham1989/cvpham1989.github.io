@@ -7,9 +7,9 @@ nav: true
 nav_order: 6
 ---
 
-*Discrete Mathematics  
-*Compiler  
-*Information Theory  
-*Design and Analysis Algorithms  
-*Social Network Analysis  
-*Graph Theory  
+Discrete Mathematics  
+Computer Compiler  
+Information Theory  
+Design and Analysis Algorithms  
+Social Network Analysis  
+Graph Theory  
