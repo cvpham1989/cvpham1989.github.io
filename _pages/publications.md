@@ -13,13 +13,13 @@ nav_order: 2
   <a href="/publications?type=inproceedings">Proceedings</a>
 </div>
 <div class="publications">
-{% if paginator.page.param contains 'article' %}
+{% if page.input == 'article' %}
 
   {% bibliography -f {{site.scholar.bibliography}} --query @*[type=article] %}
 
-{% elsif paginator.page.param contains 'inproceedings' %}
+{% elsif page.input == 'inproceedings' %}
 
-  {% bibliography -f {{site.scholar.bibliography}} --query @*[type=inproceedings] %}
+  {% bibliography -f {{site.scholar.bibliography}} --query @*[type=inproceedings] %} 
 
 {% else %}
 
