@@ -3,7 +3,7 @@ layout: page
 permalink: /publications_article/
 title: Publications
 description: #
-nav: true
+nav: false
 nav_order: 2
 ---
 <!-- _pages/publications.md -->
