@@ -13,5 +13,5 @@ nav_order: 2
   <a href="/publications_proceedings">Proceedings</a>
 </div>
 <div class="publications">
-  {% bibliography -f {{site.scholar.bibliography}} %}
+{% bibliography -f {{site.scholar.bibliography}} --query @*[type=article] %}
 </div>
