@@ -7,10 +7,20 @@ nav: true
 nav_order: 2
 ---
 <!-- _pages/publications.md -->
+<div class="filter-buttons">
+  <a href="/publications">All</a>
+  <a href="/publications?type=article">Journal</a>
+  <a href="/publications?type=inproceedings">Proceedings</a>
+</div>
 <div class="publications">
-{% if page.params.type == 'inproceedings' or page.params.type == 'article' %}
-  {% bibliography -f {{site.scholar.bibliography}} --query @*[type={{page.params.type}}] %}
+{% if page.query.type == 'article' %}
+  {% bibliography -f {{site.scholar.bibliography}} --query @*[type=article] %}
+
+{% elsif page.query.type == 'inproceedings' %}
+  {% bibliography -f {{site.scholar.bibliography}} --query @*[type=inproceedings] %}
+
 {% else %}
   {% bibliography -f {{site.scholar.bibliography}} %}
+
 {% endif %}
 </div>
