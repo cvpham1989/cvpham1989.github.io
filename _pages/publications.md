@@ -8,7 +8,9 @@ nav_order: 2
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
-
-{% bibliography -f {{ site.scholar.bibliography }} %}
-
+{% if page.params.type == 'inproceedings' or page.params.type == 'article' %}
+  {% bibliography -f {{site.scholar.bibliography}} --query @*[type={{page.params.type}}] %}
+{% else %}
+  {% bibliography -f {{site.scholar.bibliography}} %}
+{% endif %}
 </div>
