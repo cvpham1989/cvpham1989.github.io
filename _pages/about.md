@@ -2,14 +2,13 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD in Computer Science
+subtitle: PhD in Computer Science, ORLab, Faculty of Computer Science, Phenikaa University
 
 profile:
   align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-   <p> ORLab, Faculty of Computer Science, Phenikaa University</p>
     <p>Room 703, Building A6, Phenikaa University</p>
     <p>Yen Nghia, Ha Dong, Hanoi</p>
 
