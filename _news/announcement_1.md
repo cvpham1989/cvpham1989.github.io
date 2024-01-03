@@ -7,4 +7,4 @@ related_posts: false
 ---
 
 **Reviever:**  
-Pattern Recognition, IEEE Communication Letters, Computer Communication, IEEE Access, IEEE Transactions on Big Data, Computational Social Networks,  International Journal of General Systems, ACM Computing Surveys.
+Pattern Recognition, IEEE Communication Letters, Computer Communication, IEEE Access, IEEE Transactions on Big Data, Computational Social Networks,  International Journal of General Systems, ACM Computing Surveys, World Wide Web (Springer).
