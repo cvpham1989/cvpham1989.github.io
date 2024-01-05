@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**TPC member:** KSE, CSoNet
+**TPC member:** IJCAI-2024, KSE-2023, CSoNet-2023
