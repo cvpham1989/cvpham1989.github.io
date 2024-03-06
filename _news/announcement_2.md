@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**TPC member:** IJCAI-2024, ECAI-24, KSE-2023, CSoNet-2023
+**Program Committee (PC) Member:** IJCAI-2024, ECAI-24, KSE-2023, CSoNet-2023
