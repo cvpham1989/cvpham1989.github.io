@@ -30,3 +30,5 @@ ACM Computing Surveys
 World Wide Web (Springer)
 
 Computer Networks
+
+Expert System with Applications
