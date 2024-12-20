@@ -19,4 +19,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Lecturer and Researcher at ORLab, Faculty of Computer Science, Phenikaa University. My research interest focuses on designing and analysis of scalable approximation algorithms for ubiquitous combinatorial optimization problems arising in artificial intelligence, machine learning, data summarization and social network analysis.
+I am an Associate Professor at ORLab, Faculty of Computer Science, Phenikaa University. My research interest focuses on designing and analysis of scalable approximation algorithms for ubiquitous optimization problems arising in artificial intelligence, machine learning, data summarization and social network analysis.
