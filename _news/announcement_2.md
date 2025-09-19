@@ -8,8 +8,10 @@ related_posts: false
 **Program Committee (PC) Member:** 
 International Conference on Learning Representations (ICLR) 2025,
 
-International Joint Conferences on Artificial Intelligence (IJCAI) 2024,
+International Joint Conferences on Artificial Intelligence (IJCAI) 2024, 2025
 
-European Conference on Artificial Intelligence (ECAI) 2024,
+Annual AAAI Conference on Artificial Intelligence (AAAI) 2025
+
+European Conference on Artificial Intelligence (ECAI) 2024, 2025
 
 KSE-2023, CSoNet-2023
