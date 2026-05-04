@@ -5,12 +5,15 @@ inline: true
 related_posts: false
 ---
 
-**Program Committee (PC) Member:** 
-International Conference on Learning Representations (ICLR) 2025,
+**Program Committee (PC) Member/Reviewer:** 
 
-International Joint Conferences on Artificial Intelligence (IJCAI) 2024, 2025
+International Conference on Learning Representations (ICLR) 2025, 2026
+
+International Joint Conferences on Artificial Intelligence (IJCAI) 2024, 2025, 2026
 
 Annual AAAI Conference on Artificial Intelligence (AAAI) 2025
+
+International Conference on Machine Learning (ICML) 2026
 
 European Conference on Artificial Intelligence (ECAI) 2024, 2025
 
