@@ -7,7 +7,10 @@ related_posts: false
 ---
 
 **Associate Editor:**
-Associate Editor for Journal of Combinatorial Optimization, [Springer (ISI)](https://link.springer.com/journal/10878).
+
+ACM Computing Surveys, https://dl.acm.org/journal/csur
+
+Journal of Combinatorial Optimization, [Springer (ISI)](https://link.springer.com/journal/10878).
 
 **Reviewer:**  
 
