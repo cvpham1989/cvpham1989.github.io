@@ -9,11 +9,13 @@ related_posts: false
 
 International Conference on Learning Representations (ICLR) 2025, 2026
 
+Annual Conference on Neural Information Processing Systems (NeurIPS) 2025,2026
+
 International Joint Conferences on Artificial Intelligence (IJCAI) 2024, 2025, 2026
 
-Annual AAAI Conference on Artificial Intelligence (AAAI) 2025
+Annual AAAI Conference on Artificial Intelligence (AAAI) 2025, 2026
 
-International Conference on Machine Learning (ICML) 2026
+International Conference on Machine Learning (ICML) 2025, 2026
 
 European Conference on Artificial Intelligence (ECAI) 2024, 2025
 
